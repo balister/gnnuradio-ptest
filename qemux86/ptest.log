@@ -1,14 +1,14 @@
 START: ptest-runner
-2024-12-01T19:39
+2024-12-04T11:02
 BEGIN: /usr/lib/fftw/ptest
-FAILED /usr/lib/fftw/ptest/fftwl/benchl:  --verify 'obr12*3' --verify 'ibr12*3' --verify 'ofr12*3' --verify 'ifr12*3' --verify '//obc12*3' --verify '//ibc12*3' --verify '//ofc12*3' --verify '//ifc12*3' --verify 'obc12*3' --verify 'ibc12*3' --verify 'ofc12*3' --verify 'ifc12*3' --verify 'ok9hx16o11x20o11v7' --verify 'ik9hx16o11x20o11v7' --verify 'obrd6x6x5*8' --verify 'ibrd6x6x5*8' --verify 'ofrd6x6x5*8' --verify 'ifrd6x6x5*8' --verify '//obcd6x6x5*8' --verify '//ibcd6x6x5*8' --verify '//ofcd6x6x5*8' --verify '//ifcd6x6x5*8' --verify 'obcd6x6x5*8' --verify 'ibcd6x6x5*8' --verify 'ofcd6x6x5*8' --verify 'ifcd6x6x5*8' --verify 'ok24hx27e00' --verify 'ik24hx27e00' --verify '//obr36288' --verify '//ibr36288' --verify '//ofr36288' --verify '//ifr36288' --verify 'obr36288' --verify 'ibr36288' --verify 'ofr36288' --verify 'ifr36288' --verify '//obc36288' --verify '//ibc36288' --verify '//ofc36288' --verify '//ifc36288' --verify 'obc36288' --verify 'ibc36288' --verify 'ofc36288' --verify 'ifc36288'
+FAILED /usr/lib/fftw/ptest/fftwl/benchl:  --verify 'ok9e01x9hx11e10x2o01' --verify 'ik9e01x9hx11e10x2o01' --verify 'obrd8*131' --verify 'ibrd8*131' --verify 'ofrd8*131' --verify 'ifrd8*131' --verify '//obcd8*131' --verify '//ibcd8*131' --verify '//ofcd8*131' --verify '//ifcd8*131' --verify 'obcd8*131' --verify 'ibcd8*131' --verify 'ofcd8*131' --verify 'ifcd8*131' --verify 'okd7hx10o01v4' --verify 'ikd7hx10o01v4' --verify '//obr128x21' --verify '//ofr128x21' --verify 'obr128x21' --verify 'ibr128x21' --verify 'ofr128x21' --verify 'ifr128x21' --verify '//obc128x21' --verify '//ibc128x21' --verify '//ofc128x21' --verify '//ifc128x21' --verify 'obc128x21' --verify 'ibc128x21' --verify 'ofc128x21' --verify 'ifc128x21' --verify 'ok11o00x9e10*17' --verify 'ik11o00x9e10*17' --verify 'obr100*74' --verify 'ibr100*74' --verify 'ofr100*74' --verify 'ifr100*74' --verify '//obc100*74' --verify '//ibc100*74' --verify '//ofc100*74' --verify '//ifc100*74' --verify 'obc100*74' --verify 'ibc100*74' --verify 'ofc100*74' --verify 'ifc100*74'
 PASS: fftw
 PASS: fftwf
 FAIL: fftwl
-DURATION: 911
+DURATION: 422
 END: /usr/lib/fftw/ptest
-2024-12-01T19:54
-2024-12-01T19:54
+2024-12-04T11:09
+2024-12-04T11:09
 BEGIN: /usr/lib/gnuradio/ptest
 Test project /usr/lib/gnuradio/ptest
         Start   1: qa_flowgraph
@@ -485,10 +485,10 @@ Output from these tests are in: /usr/lib/gnuradio/ptest/Testing/Temporary/LastTe
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
 
 ERROR: Exit status is 8
-DURATION: 2631
+DURATION: 1586
 END: /usr/lib/gnuradio/ptest
-2024-12-01T20:38
-2024-12-01T20:38
+2024-12-04T11:35
+2024-12-04T11:35
 BEGIN: /usr/lib/volk/ptest
 Test project /usr/lib/volk/ptest
         Start   1: qa_volk_16i_32fc_dot_prod_32fc
@@ -789,8 +789,8 @@ Test project /usr/lib/volk/ptest
 100% tests passed, 0 tests failed out of 147
 
 Total Test time (real) =
-DURATION: 17
+DURATION: 12
 END: /usr/lib/volk/ptest
-2024-12-01T20:38
+2024-12-04T11:35
 STOP: ptest-runner
 TOTAL: 3 FAIL: 1
